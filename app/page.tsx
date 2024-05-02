@@ -50,6 +50,7 @@ const Home = async () => {
           <Button
             className="h-fit p-0 text-primary hover:bg-transparent"
             variant="ghost"
+            asChild
           >
             <Link href="/products/recommended">
               Ver todos
